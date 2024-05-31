@@ -28,3 +28,5 @@ GET "/comments/:id"
 POST "/articles/:id/comments"
 PUT "/comments/:id"
 DELETE "/comments/:id"
+
+You can clone the app, cd into it and run: go run main.go and it will run locally on your machine. I t will also download all the modules used to build.
