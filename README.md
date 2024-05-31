@@ -3,6 +3,8 @@
 This is a minimal backend for a blog-like application.
 It has ability to add users, authentication using jwt, add articles and add comments to articles.
 It also ensures diferent users have different permissions.
+e.g Only users are allowed to add articles, patch and delete only their articles;
+users allowed to add comments to other users' articles and only commenters can patch and delete their own comments unless entire rticle is deleted by original user.
 
 ## Routes
 
